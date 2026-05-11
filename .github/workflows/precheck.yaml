@@ -11,8 +11,8 @@ jobs:
     env:
       PYTHONIOENCODING: utf-8
       PDK_ROOT: /home/runner/pdk
-      KLAYOUT_VERSION: 0.29.12
-      MAGIC_VERSION: 8.3.471
+      KLAYOUT_VERSION: 0.30.4.post1
+      MAGIC_VERSION: 8.3.568
       GOLDEN_CARAVEL: ${{ github.workspace }}/caravel
 
     runs-on: ubuntu-24.04
