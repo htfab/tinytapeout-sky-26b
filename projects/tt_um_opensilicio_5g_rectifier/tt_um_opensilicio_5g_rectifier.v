@@ -6,6 +6,7 @@ module tt_um_opensilicio_5g_rectifier (
     input  wire [7:0] uio_in,
     output wire [7:0] uio_out,
     output wire [7:0] uio_oe,
+    inout  wire [7:0] ua,       // Analog pins, only ua[5:0] can be used
     input  wire       ena,
     input  wire       clk,
     input  wire       rst_n,
